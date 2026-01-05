@@ -1,0 +1,51 @@
+.emptyState {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    pointer-events: none;
+}
+
+.chats {
+    width: 100%;
+    max-width: 750px;
+    padding-bottom: 2rem;
+    margin-bottom: 10rem;
+}
+
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    margin: 1rem 0rem;
+}
+
+.gptDiv {
+    text-align: left;
+    gap: 12px;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    padding: 1rem;
+}
+
+.userMessage {
+    background-color: #323232;
+    padding: 10px 15px;
+    border-radius: 14px;
+    max-width: 500px;
+    width: fit-content;
+}
+
+.loaderWrapper {
+    margin-bottom: 1rem;
+}
+
+.hljs {
+    border-radius: 14px !important;
+}
+
+.pre {
+    white-space: pre-wrap;
+}
